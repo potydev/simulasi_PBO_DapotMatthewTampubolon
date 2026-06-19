@@ -30,7 +30,7 @@ class PendaftaranReguler extends Pendaftaran {
         return $this->lokasiKampus;
     }
 
-    // Overriding abstract methods
+    // Overriding abstract methods (Tahap 5: Reguler has no extra fee)
     public function hitungTotalBiaya() {
         return $this->biayaPendaftaranDasar;
     }
